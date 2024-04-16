@@ -1,0 +1,34 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "KU020"
+        ]
+      }
+    },
+    {
+      "code": "Käyttöönottovuosi",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "YH"
+        ]
+      }
+    },
+    {
+      "code": "Käyttövoima",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "YH"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "agg:_Municipalities in alphabetical order 2023.agg",
+        "values": [
+          "KU020"
+        ]
+      }
+    },
+    {
+      "code": "Tiedot",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "valisays",
+          "vaesto"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}
